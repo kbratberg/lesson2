@@ -1,6 +1,8 @@
 package edu.wctc;
 
-public class Cat extends Animal implements Adoptable {
+import java.io.Serializable;
+
+public class Cat extends Animal implements Adoptable, Serializable {
 
     private int mousesKilled;
     private static int catCount = 0;

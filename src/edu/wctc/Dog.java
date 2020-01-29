@@ -1,6 +1,8 @@
 package edu.wctc;
 
-public class Dog extends Animal implements Adoptable{
+import java.io.Serializable;
+
+public class Dog extends Animal implements Adoptable, Serializable {
 
     private boolean isFriendly;
 
